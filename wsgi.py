@@ -1,6 +1,6 @@
 import os
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Pet-Adoption-portal.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pet_adoption_portal.settings')
 
 application = get_wsgi_application()
