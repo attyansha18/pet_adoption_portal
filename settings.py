@@ -110,5 +110,7 @@ import os
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
+PORT = os.getenv("PORT", "10000")
+
 # Use Whitenoise for static files
 MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
