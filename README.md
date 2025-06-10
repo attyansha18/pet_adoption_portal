@@ -28,3 +28,6 @@ A web-based platform to help people adopt and rehome pets with ease.
 - Database: SQLite
 
 - Other: Django Admin Panel, Pillow for image handling
+
+
+ps: Currently in progress
